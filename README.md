@@ -1,11 +1,6 @@
 <p align="center">
-  <img src="./assets/neofetch.png" alt="alex@dejan — neofetch" width="880">
+  <img src="./assets/hero.svg" alt="Alex — macOS widgets, web apps and AI-assisted developer tools" width="100%">
 </p>
-
-# AlexDesign420
-
-> Building macOS widgets, web apps and AI-assisted developer tools.  
-> Live data, clean UI, local workflows.
 
 ---
 
@@ -74,6 +69,26 @@ A real-time FIFA World Cup 2026 desktop widget for macOS.
 
 [![Release](https://img.shields.io/github/v/release/AlexDesign420/wm2026-widget?style=flat-square&color=007A3D)](https://github.com/AlexDesign420/wm2026-widget/releases)
 [→ Repository](https://github.com/AlexDesign420/wm2026-widget)
+
+---
+
+## Open Source Contributions
+
+### snow-cli — agent stream format fix
+
+Six internal agents of [`MayDay-wpf/snow-cli`](https://github.com/MayDay-wpf/snow-cli) read the raw
+SSE shape `chunk.choices[0].delta.content` while the stream had already been normalised to
+`{ type: 'content', content }`. The mismatch only surfaced with OpenAI-compatible endpoints
+(LM Studio, Ollama, vLLM, DeepSeek) and failed **silently** — the summary agent, the vision agent
+and, most importantly, the auto-compaction agent simply received empty responses.
+
+The fix removes the branch entirely and always reads the unified format: **24 insertions,
+91 deletions**, `tsc` and `prettier` clean.
+
+[![PR #193](https://img.shields.io/badge/PR%20%23193-merged-8957E5?style=flat-square&logo=github)](https://github.com/MayDay-wpf/snow-cli/pull/193)
+&nbsp;Merged 2026-07-17 · shipped in `v0.8.19`
+
+[→ View the pull request](https://github.com/MayDay-wpf/snow-cli/pull/193)
 
 ---
 
