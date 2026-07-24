@@ -185,7 +185,7 @@
     <animate attributeName="opacity" values="0;1" begin="3.4s" dur="0.1s" fill="freeze"/>
     <animate attributeName="opacity" values="1;0;1" begin="3.5s" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-  <text x="72" y="480" class="mono" font-size="10.5" fill="#334155" letter-spacing="1.6">MACOS · SWIFT · TAURI · AI TOOLING</text>
+  <text x="72" y="480" class="mono" font-size="10.5" fill="#334155" letter-spacing="1.6">WEB · MACOS · IOS · AI TOOLING</text>
 </g>
 
 <!-- ============ RECHTS: TERMINALFENSTER ============ -->
@@ -225,8 +225,8 @@
     </text>
     <!-- fünf Rollen, jeweils eingeblendet und wieder ausgeblendet -->
     <g font-size="16.5" fill="#22D3EE">
-      <text x="516" y="168" opacity="1">macOS Developer<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.28;0.34;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
-      <text x="516" y="168" opacity="0">Swift &amp; SwiftUI Engineer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.26;0.48;0.54;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
+      <text x="516" y="168" opacity="1">Full Stack Web Developer<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.28;0.34;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
+      <text x="516" y="168" opacity="0">macOS &amp; iOS Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.26;0.48;0.54;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
       <text x="516" y="168" opacity="0">Open Source Contributor<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.46;0.68;0.74;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
       <text x="516" y="168" opacity="0">AI Tooling Builder<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.66;0.88;0.94;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
       <text x="516" y="168" opacity="0">Local-First Advocate<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8;0.86;0.97;1" begin="1.0s" dur="15s" repeatCount="indefinite"/></text>
@@ -245,7 +245,7 @@
     <g opacity="1"><animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.4s" fill="freeze"/>
       <text x="500" y="222" fill="#64748B">location</text><text x="640" y="222" fill="#E2E8F0">Germany</text></g>
     <g opacity="1"><animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.4s" fill="freeze"/>
-      <text x="500" y="248" fill="#64748B">focus</text><text x="640" y="248" fill="#E2E8F0">macOS widgets · AI dev tools</text></g>
+      <text x="500" y="248" fill="#64748B">focus</text><text x="640" y="248" fill="#E2E8F0">Web apps · macOS widgets · AI tools</text></g>
     <g opacity="1"><animate attributeName="opacity" values="0;1" begin="2.1s" dur="0.4s" fill="freeze"/>
       <text x="500" y="274" fill="#64748B">learning</text><text x="640" y="274" fill="#E2E8F0">Syntax Institut · Web Development</text></g>
     <g opacity="1"><animate attributeName="opacity" values="0;1" begin="2.4s" dur="0.4s" fill="freeze"/>
@@ -257,54 +257,69 @@
 
   <!-- Skills als leuchtende Pillen -->
   <text x="500" y="368" class="mono" font-size="10.5" fill="#475569" letter-spacing="2">STACK</text>
-  <g class="mono" font-size="12" filter="url(#tinyGlow)">
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.0s" dur="0.4s" fill="freeze"/>
-      <rect x="500" y="382" width="66" height="27" rx="13.5" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.5"/><text x="533" y="400" text-anchor="middle" fill="#C4B5FD">Swift</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.1s" dur="0.4s" fill="freeze"/>
-      <rect x="574" y="382" width="76" height="27" rx="13.5" fill="#22D3EE" fill-opacity="0.14" stroke="#22D3EE" stroke-opacity="0.5"/><text x="612" y="400" text-anchor="middle" fill="#A5F3FC">SwiftUI</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.2s" dur="0.4s" fill="freeze"/>
-      <rect x="658" y="382" width="88" height="27" rx="13.5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5"/><text x="702" y="400" text-anchor="middle" fill="#6EE7B7">TypeScript</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.4s" fill="freeze"/>
-      <rect x="754" y="382" width="62" height="27" rx="13.5" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.5"/><text x="785" y="400" text-anchor="middle" fill="#C4B5FD">React</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.4s" dur="0.4s" fill="freeze"/>
-      <rect x="824" y="382" width="62" height="27" rx="13.5" fill="#22D3EE" fill-opacity="0.14" stroke="#22D3EE" stroke-opacity="0.5"/><text x="855" y="400" text-anchor="middle" fill="#A5F3FC">Tauri</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.5s" dur="0.4s" fill="freeze"/>
-      <rect x="894" y="382" width="56" height="27" rx="13.5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5"/><text x="922" y="400" text-anchor="middle" fill="#6EE7B7">Rust</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.4s" fill="freeze"/>
-      <rect x="958" y="382" width="70" height="27" rx="13.5" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.5"/><text x="993" y="400" text-anchor="middle" fill="#C4B5FD">Python</text></g>
-
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.7s" dur="0.4s" fill="freeze"/>
-      <rect x="500" y="419" width="78" height="27" rx="13.5" fill="#22D3EE" fill-opacity="0.14" stroke="#22D3EE" stroke-opacity="0.5"/><text x="539" y="437" text-anchor="middle" fill="#A5F3FC">Node.js</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.8s" dur="0.4s" fill="freeze"/>
-      <rect x="586" y="419" width="66" height="27" rx="13.5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5"/><text x="619" y="437" text-anchor="middle" fill="#6EE7B7">SQLite</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.9s" dur="0.4s" fill="freeze"/>
-      <rect x="660" y="419" width="94" height="27" rx="13.5" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.5"/><text x="707" y="437" text-anchor="middle" fill="#C4B5FD">LM Studio</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.0s" dur="0.4s" fill="freeze"/>
-      <rect x="762" y="419" width="52" height="27" rx="13.5" fill="#22D3EE" fill-opacity="0.14" stroke="#22D3EE" stroke-opacity="0.5"/><text x="788" y="437" text-anchor="middle" fill="#A5F3FC">Git</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.1s" dur="0.4s" fill="freeze"/>
-      <rect x="822" y="419" width="76" height="27" rx="13.5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5"/><text x="860" y="437" text-anchor="middle" fill="#6EE7B7">Electron</text></g>
-    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.4s" fill="freeze"/>
-      <rect x="906" y="419" width="86" height="27" rx="13.5" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.5"/><text x="949" y="437" text-anchor="middle" fill="#C4B5FD">HealthKit</text></g>
+  <g class="mono" font-size="11.5" filter="url(#tinyGlow)">
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.00s" dur="0.35s" fill="freeze"/>
+      <rect x="500" y="378" width="50" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="525" y="395" text-anchor="middle" fill="#C4B5FD">HTML</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.06s" dur="0.35s" fill="freeze"/>
+      <rect x="559" y="378" width="43" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="580" y="395" text-anchor="middle" fill="#A5F3FC">CSS</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.12s" dur="0.35s" fill="freeze"/>
+      <rect x="611" y="378" width="78" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="650" y="395" text-anchor="middle" fill="#6EE7B7">Tailwind</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.18s" dur="0.35s" fill="freeze"/>
+      <rect x="698" y="378" width="92" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="744" y="395" text-anchor="middle" fill="#C4B5FD">TypeScript</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.24s" dur="0.35s" fill="freeze"/>
+      <rect x="799" y="378" width="92" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="845" y="395" text-anchor="middle" fill="#A5F3FC">JavaScript</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.30s" dur="0.35s" fill="freeze"/>
+      <rect x="900" y="378" width="57" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="928" y="395" text-anchor="middle" fill="#6EE7B7">React</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.36s" dur="0.35s" fill="freeze"/>
+      <rect x="966" y="378" width="71" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="1002" y="395" text-anchor="middle" fill="#C4B5FD">Next.js</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.42s" dur="0.35s" fill="freeze"/>
+      <rect x="500" y="410" width="71" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="536" y="427" text-anchor="middle" fill="#A5F3FC">Node.js</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.48s" dur="0.35s" fill="freeze"/>
+      <rect x="580" y="410" width="64" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="612" y="427" text-anchor="middle" fill="#6EE7B7">Python</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.54s" dur="0.35s" fill="freeze"/>
+      <rect x="653" y="410" width="57" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="682" y="427" text-anchor="middle" fill="#C4B5FD">Flask</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.60s" dur="0.35s" fill="freeze"/>
+      <rect x="719" y="410" width="92" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="765" y="427" text-anchor="middle" fill="#A5F3FC">PostgreSQL</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.66s" dur="0.35s" fill="freeze"/>
+      <rect x="820" y="410" width="64" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="852" y="427" text-anchor="middle" fill="#6EE7B7">SQLite</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.72s" dur="0.35s" fill="freeze"/>
+      <rect x="893" y="410" width="85" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="936" y="427" text-anchor="middle" fill="#C4B5FD">REST APIs</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.78s" dur="0.35s" fill="freeze"/>
+      <rect x="987" y="410" width="50" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="1012" y="427" text-anchor="middle" fill="#A5F3FC">Vite</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.84s" dur="0.35s" fill="freeze"/>
+      <rect x="500" y="442" width="57" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="528" y="459" text-anchor="middle" fill="#6EE7B7">Swift</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.90s" dur="0.35s" fill="freeze"/>
+      <rect x="566" y="442" width="71" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="602" y="459" text-anchor="middle" fill="#C4B5FD">SwiftUI</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="3.96s" dur="0.35s" fill="freeze"/>
+      <rect x="646" y="442" width="57" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="674" y="459" text-anchor="middle" fill="#A5F3FC">Tauri</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.02s" dur="0.35s" fill="freeze"/>
+      <rect x="712" y="442" width="78" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="751" y="459" text-anchor="middle" fill="#6EE7B7">Electron</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.08s" dur="0.35s" fill="freeze"/>
+      <rect x="799" y="442" width="50" height="25" rx="12.5" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.5"/><text x="824" y="459" text-anchor="middle" fill="#C4B5FD">Rust</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.14s" dur="0.35s" fill="freeze"/>
+      <rect x="858" y="442" width="43" height="25" rx="12.5" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-opacity="0.5"/><text x="880" y="459" text-anchor="middle" fill="#A5F3FC">Git</text></g>
+    <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.20s" dur="0.35s" fill="freeze"/>
+      <rect x="910" y="442" width="85" height="25" rx="12.5" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.5"/><text x="952" y="459" text-anchor="middle" fill="#6EE7B7">LM Studio</text></g>
   </g>
 
-  <line x1="500" y1="472" x2="1102" y2="472" stroke="rgba(255,255,255,.06)"/>
+  <line x1="500" y1="486" x2="1102" y2="486" stroke="rgba(255,255,255,.06)"/>
 
   <!-- Fußzeile: Kennzahlen + Social -->
   <g opacity="1"><animate attributeName="opacity" values="0;1" begin="4.5s" dur="0.5s" fill="freeze"/>
     <g class="mono" font-size="12.5">
-      <text x="500" y="506" fill="#64748B">repos</text><text x="556" y="506" fill="#E2E8F0">8</text>
-      <text x="600" y="506" fill="#64748B">merged PRs</text><text x="700" y="506" fill="#10B981">1</text>
-      <text x="740" y="506" fill="#64748B">since</text><text x="790" y="506" fill="#E2E8F0">2022</text>
+      <text x="500" y="516" fill="#64748B">repos</text><text x="556" y="516" fill="#E2E8F0">8</text>
+      <text x="600" y="516" fill="#64748B">merged PRs</text><text x="700" y="516" fill="#10B981">1</text>
+      <text x="740" y="516" fill="#64748B">since</text><text x="790" y="516" fill="#E2E8F0">2022</text>
     </g>
     <g class="mono" font-size="12" fill="#94A3B8">
       <g filter="url(#tinyGlow)">
-        <circle cx="512" cy="536" r="9" fill="none" stroke="#7C3AED" stroke-opacity="0.6"/>
-        <text x="512" y="540" text-anchor="middle" font-size="10" fill="#C4B5FD">GH</text>
-        <text x="532" y="540" fill="#64748B">github.com/AlexDesign420</text>
+        <circle cx="512" cy="544" r="9" fill="none" stroke="#7C3AED" stroke-opacity="0.6"/>
+        <text x="512" y="548" text-anchor="middle" font-size="10" fill="#C4B5FD">GH</text>
+        <text x="532" y="548" fill="#64748B">github.com/AlexDesign420</text>
 
-        <circle cx="760" cy="536" r="9" fill="none" stroke="#22D3EE" stroke-opacity="0.6"/>
-        <text x="760" y="540" text-anchor="middle" font-size="10" fill="#A5F3FC">↗</text>
-        <text x="780" y="540" fill="#64748B">macOS · iOS · Web · AI</text>
+        <circle cx="760" cy="544" r="9" fill="none" stroke="#22D3EE" stroke-opacity="0.6"/>
+        <text x="760" y="548" text-anchor="middle" font-size="10" fill="#A5F3FC">↗</text>
+        <text x="780" y="548" fill="#64748B">macOS · iOS · Web · AI</text>
       </g>
     </g>
   </g>
