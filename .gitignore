@@ -149,3 +149,6 @@ id_dsa
 INHALTS.md
 PRÄSENTATION.md
 preview.html
+
+# lokale Vorschau-Assets (nicht Teil des Profils)
+.preview-assets/
