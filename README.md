@@ -1,13 +1,16 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Alex — macOS widgets, web apps and AI-assisted developer tools" width="100%">
+  <img src="./assets/hero.svg" alt="Alex — full stack web development, AI agents, LoRA fine-tuning and data science" width="100%">
 </p>
 
 # 💫 About Me:
-🔭 I'm currently working on live-data desktop widgets and native tooling for Claude Code<br>👯 I'm looking to collaborate on macOS & Windows desktop widgets and open-source developer tools<br>🌱 I'm currently learning full stack web development at Syntax Institut<br>💬 Ask me about Übersicht widgets, Tauri, SwiftUI, Flask APIs and local LLM workflows<br>⚡ Fun fact: my sports widgets narrate goals out loud in German via text-to-speech
+🔭 I'm currently working on agentic systems, LoRA fine-tuning and data-science pipelines around local LLMs<br>👯 I'm looking to collaborate on open-source AI tooling, RAG systems and full stack web projects<br>🌱 I'm currently learning full stack web development at Syntax Institut, plus LLM fine-tuning and evaluation<br>💬 Ask me about LoRA fine-tuning with Unsloth, RAG pipelines, MCP servers, local LLMs and Flask/Next.js APIs<br>⚡ Fun fact: I run my own RAG index of ~49k chunks and fine-tune models on a single local GPU
 
 ## 🌐 Socials:
 [![Email](https://img.shields.io/badge/Email-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:info.dejan@proton.me)
 [![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlexDesign420)
+
+# 🧠 AI & Data:
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 # 💻 Tech Stack:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
@@ -16,16 +19,21 @@
 
 ## 🚀 Featured Projects
 
-### 🤖 Claude Mac App
+### 🤖 Claude Mac App — agent command center
 
-A native macOS desktop application for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) — embedded PTY terminal, agent command center, SQLite persistence and local LLM integration via LM Studio.
+A desktop control centre for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview): embedded PTY terminal, an agent command center for running and monitoring coding agents, SQLite persistence for sessions, and local LLM inference wired in through LM Studio.
 
-**Stack:** Tauri 2 · React 19 · TypeScript · SQLite · node-pty · Rust
+**Stack:** Tauri 2 · React 19 · TypeScript · SQLite · node-pty · Rust · LM Studio
 
 [![Release](https://img.shields.io/github/v/release/AlexDesign420/claude-mac?style=flat-square&color=24C8D8&labelColor=0F172A)](https://github.com/AlexDesign420/claude-mac/releases)
 [→ Repository](https://github.com/AlexDesign420/claude-mac)
 
 ---
+
+## 🧰 Earlier Work — live-data desktop widgets
+
+Real-time data pipelines with audio and text-to-speech, built as desktop widgets for
+macOS and Windows. Not my current focus, but they are the projects with the most users.
 
 ### ⚽ WM 2026 Widget — Windows
 
@@ -149,11 +157,11 @@ the account.
 
 ## 🎯 Focus Areas
 
-- **AI-assisted development** — Local LLM workflows, Claude Code, coding agents, LM Studio
-- **Native macOS apps** — SwiftUI, WKWebView, Tauri-based desktop tools
-- **Native iOS apps** — SwiftUI, HealthKit, Apple platform development
-- **Desktop widgets** — Übersicht (macOS) and Lively Wallpaper (Windows) with live data, audio and TTS
-- **Live data integrations** — Sports APIs, streaming, real-time updates
+- **Agentic systems** — Multi-agent workflows, MCP servers, tool-calling pipelines, coding agents
+- **LoRA fine-tuning** — Adapter training with Unsloth on consumer hardware, dataset prep, evaluation
+- **Data science** — Pandas/NumPy analysis pipelines, metrics, visualisation
+- **RAG & local LLMs** — Chunking and retrieval at ~49k chunks, LM Studio and Ollama serving
+- **Full stack web** — Next.js/React front ends on Flask and Node APIs, PostgreSQL and SQLite
 - **Clean UI & documentation** — Readable code, structured READMEs, open source
 
 ---
