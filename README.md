@@ -3,7 +3,7 @@
 </p>
 
 # 💫 About Me:
-🔭 I'm currently working on agentic systems, LoRA fine-tuning and data-science pipelines around local LLMs<br>👯 I'm looking to collaborate on open-source AI tooling, RAG systems and full stack web projects<br>🌱 I'm currently learning full stack web development at Syntax Institut, plus LLM fine-tuning and evaluation<br>💬 Ask me about LoRA fine-tuning with Unsloth, RAG pipelines, MCP servers, local LLMs and Flask/Next.js APIs<br>⚡ Fun fact: I run my own RAG index of ~49k chunks and fine-tune models on a single local GPU
+🔭 I'm currently working on agentic systems, LoRA fine-tuning and data-science pipelines around local LLMs — see [slim-lora](https://github.com/AlexDesign420/slim-lora) (LoRA training on 8 GB of VRAM) and [agent-telemetry](https://github.com/AlexDesign420/agent-telemetry) (privacy-preserving analysis of 1,213 real agent sessions)<br>👯 I'm looking to collaborate on open-source AI tooling, RAG systems and full stack web projects<br>🌱 I'm currently learning full stack web development at Syntax Institut, plus LLM fine-tuning and evaluation<br>💬 Ask me about LoRA fine-tuning with Unsloth, RAG pipelines, MCP servers, local LLMs and Flask/Next.js APIs<br>⚡ Fun fact: I run my own RAG index of ~49k chunks and fine-tune models on a single local GPU
 
 ## 🌐 Socials:
 [![Email](https://img.shields.io/badge/Email-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:info.dejan@proton.me)
@@ -18,6 +18,36 @@
 ---
 
 ## 🚀 Featured Projects
+
+### 🧪 slim-lora — LoRA fine-tuning on 8 GB of VRAM
+
+Most LoRA guides assume a 24 GB card. This one is built for the hardware I actually train on. Its core is a VRAM budget estimator that adds up model weights, adapter parameters, gradients, optimizer state and activations, and tells you **before** the run whether it fits — and which setting to change if it does not.
+
+Reference configs for SDXL, FLUX (LoKr with block swapping) and Apple Silicon, plus dataset tooling: aspect-ratio bucketing, perceptual-hash deduplication and the caption checks that catch a trigger word fusing with a background.
+
+**Stack:** Python · PyTorch · sd-scripts · MLX · Pillow · pytest · mypy strict
+
+[![License](https://img.shields.io/github/license/AlexDesign420/slim-lora?style=flat-square&color=24C8D8&labelColor=0F172A)](https://github.com/AlexDesign420/slim-lora/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AlexDesign420/slim-lora?style=flat-square&color=6D4AFF&labelColor=0F172A)](https://github.com/AlexDesign420/slim-lora/commits/main)
+[→ Repository](https://github.com/AlexDesign420/slim-lora)
+
+---
+
+### 📊 agent-telemetry — what 1,213 AI agent sessions actually look like
+
+A privacy-preserving pipeline that turns Claude Code session logs into metrics without extracting a single line of their text: a field allowlist instead of a blocklist, keyed hashes for identifiers, k-anonymity, and a scan that stops the pipeline rather than filtering a leak away.
+
+Published with the anonymized dataset it produced — 1,213 sessions, 181,406 events — a data card, and five notebooks. Headline finding: **98.2 % of all input-side tokens are prompt-cache reads**, and the cache pays for itself within the first few turns rather than over a long session.
+
+**Stack:** Python · pandas · PyArrow · matplotlib · Jupyter · pytest · mypy strict
+
+[![License](https://img.shields.io/github/license/AlexDesign420/agent-telemetry?style=flat-square&color=24C8D8&labelColor=0F172A)](https://github.com/AlexDesign420/agent-telemetry/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AlexDesign420/agent-telemetry?style=flat-square&color=6D4AFF&labelColor=0F172A)](https://github.com/AlexDesign420/agent-telemetry/commits/main)
+[→ Repository](https://github.com/AlexDesign420/agent-telemetry)
+&nbsp;·&nbsp;
+[→ Findings notebook](https://github.com/AlexDesign420/agent-telemetry/blob/main/notebooks/05-findings.ipynb)
+
+---
 
 ### 🤖 Claude Mac App — agent command center
 
